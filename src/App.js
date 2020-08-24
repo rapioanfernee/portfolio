@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import styled from "styled-components";
-import backgroundImage from "./app-background.jpeg";
+import backgroundImage from "./images/app-background.jpeg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Introduction from "./Introduction/Introduction";
 import Projects from "./Projects/Projects";
@@ -20,7 +20,7 @@ const AppBackground = styled.div`
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(8, 7, 8, 0.95);
+    background: rgba(8, 7, 8, 0.85);
     height: 100%;
     width: 100%;
   }
@@ -34,8 +34,10 @@ const AppContainer = styled.div`
   overflow: auto;
   ul {
     padding-left: 0;
-    li: {
+    li {
       list-style: none;
+      font-size: 0.75rem;
+      margin: 0;
     }
   }
 `;

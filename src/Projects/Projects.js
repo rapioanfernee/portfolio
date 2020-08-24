@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import ProjectItem from "./ProjectItem";
+import unAvailable from "../images/unavailable.png";
+import onePropertee from "../images/onepropertee.png";
+import innovationLove from "../images/innovationlove.png";
 
 const ProjectsContainer = styled.div`
   background: white;
@@ -12,11 +15,10 @@ const ProjectsContainer = styled.div`
 const ProjectsBody = styled.div`
   max-width: 1024px;
   width: 100%;
-  margin-top: 64px;
+  margin: 32px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100%;
 `;
 
 const ProjectList = styled.div`
@@ -24,7 +26,7 @@ const ProjectList = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 128px;
+  height: 100%;
 `;
 
 const Projects = () => {
@@ -33,10 +35,42 @@ const Projects = () => {
       <ProjectsBody>
         <h2>Projects</h2>
         <ProjectList>
-          <ProjectItem></ProjectItem>
-          <ProjectItem></ProjectItem>
-          <ProjectItem></ProjectItem>
-          <ProjectItem></ProjectItem>
+          <ProjectItem
+            projectTitle="Analytics Dashboard"
+            projectClient="Samsung Electronics"
+            projectDate="2019"
+            projectDescription="The nature of this work is confidential"
+            projectSkills={["ReactJS", "JavaScript", "HTML", "CSS"]}
+            projectLink="#"
+            projectImage={unAvailable}
+          ></ProjectItem>
+          <ProjectItem
+            projectTitle="OnePropertee"
+            projectClient="Innovation Love"
+            projectDate="2019"
+            projectDescription="A Real Estate portal made closely with the country's top sellers"
+            projectSkills={["ReactJS", "JavaScript", "HTML", "CSS"]}
+            projectLink="https://onepropertee.com/"
+            projectImage={onePropertee}
+          ></ProjectItem>
+          <ProjectItem
+            projectTitle="Innovation Love (Website)"
+            projectClient="Innovation Love"
+            projectDate="2019"
+            projectDescription="Company website"
+            projectSkills={["ReactJS", "JavaScript", "HTML", "CSS"]}
+            projectLink="https://innovationlove.ph/"
+            projectImage={innovationLove}
+          ></ProjectItem>
+          <ProjectItem
+            projectTitle="Smart Asset Maintenance"
+            projectClient="Accenture"
+            projectDate="2018"
+            projectDescription="Analytics dashboard for IoT application"
+            projectSkills={["SAP UI5", "JavaScript", "CSS"]}
+            projectLink="#"
+            projectImage={unAvailable}
+          ></ProjectItem>
         </ProjectList>
       </ProjectsBody>
     </ProjectsContainer>
