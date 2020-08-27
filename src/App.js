@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Introduction from "./Introduction/Introduction";
 import Projects from "./Projects/Projects";
 import Background from "./Background/Background";
+import Experience from "./Experience/Experience";
 
 const AppBackground = styled.div`
   position: fixed;
@@ -48,6 +49,7 @@ const App = () => {
       <AppContainer>
         <Introduction></Introduction>
         <Projects></Projects>
+        <Experience></Experience>
         <Background></Background>
       </AppContainer>
     </AppBackground>

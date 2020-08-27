@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const BackgroundContainer = styled.div`
-  background: transparent;
+  background: white;
   width: 100%;
   min-height: 30vh;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +28,10 @@ const BackgroundBody = styled.div`
 
   a {
     text-decoration: none;
-    color: white;
+    color: black;
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
     &:hover {
       color: grey;
     }
@@ -41,14 +44,14 @@ const BackgroundBody = styled.div`
 const Background = () => {
   return (
     <BackgroundContainer>
-      <BackgroundBody>
+      <BackgroundBody className="m-md-auto py-5 px-2 px-sm-1">
         <h2>About</h2>
-        <p>
-          BS Computer Engineering graduate from De La Salle University - Manila.
-        </p>
         <p>
           A software engineer focusing on front-end development using HTML, CSS,
           JavaScript and ReactJS.
+        </p>
+        <p>
+          BS Computer Engineering graduate from De La Salle University - Manila.
         </p>
         <h3>Connect</h3>
         <div>

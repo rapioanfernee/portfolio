@@ -32,11 +32,20 @@ const SkillsAndPortfolio = styled.div`
     display: flex;
     margin-bottom: 32px;
     text-align: center;
-    span:not(:last-child) {
-      margin-right: 64px;
 
+    @media only screen and (max-width: 992px) {
+      img {
+        height: 48px;
+      }
+      font-size: 0.75rem;
+      span {
+        margin-right: 64px;
+      }
+    }
+    span:not(:last-child) {
+      margin-right: 32px;
       @media only screen and (max-width: 992px) {
-        max-width: 32px;
+        margin-right: 16px;
       }
     }
   }
