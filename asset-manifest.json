@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.636acef0.chunk.css",
+    "main.js": "/static/js/main.15395c5d.chunk.js",
+    "main.js.map": "/static/js/main.15395c5d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7dfa369c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7dfa369c.js.map",
+    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
+    "static/js/2.829f4780.chunk.js": "/static/js/2.829f4780.chunk.js",
+    "static/js/2.829f4780.chunk.js.map": "/static/js/2.829f4780.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9cd9ef375664eb1b22c4199a423256c4.js": "/precache-manifest.9cd9ef375664eb1b22c4199a423256c4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
+    "static/css/main.636acef0.chunk.css.map": "/static/css/main.636acef0.chunk.css.map",
+    "static/js/2.829f4780.chunk.js.LICENSE.txt": "/static/js/2.829f4780.chunk.js.LICENSE.txt",
+    "static/media/app-background.jpeg": "/static/media/app-background.f8bb717d.jpeg",
+    "static/media/innovationlove.png": "/static/media/innovationlove.d19b6213.png",
+    "static/media/onepropertee.png": "/static/media/onepropertee.6dd159cf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7dfa369c.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.829f4780.chunk.js",
+    "static/css/main.636acef0.chunk.css",
+    "static/js/main.15395c5d.chunk.js"
+  ]
+}
