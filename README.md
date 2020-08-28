@@ -1,6 +1,2 @@
+Check-out the deployed version in this [link](https://rapioanfernee.github.io/portfolio)
 
-## Link
-
-https://rapioanfernee.github.io/portfolio
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
