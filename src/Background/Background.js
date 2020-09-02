@@ -55,7 +55,7 @@ const Background = () => {
         </p>
         <h3>Connect</h3>
         <div>
-          <a href="https://github.com/anferneerapio">Github Portfolio ➤</a>
+          <a href="https://github.com/rapioanfernee">Github Portfolio ➤</a>
           <a href="https://www.facebook.com/rapioanfernee">Facebook ➤</a>
           <a href="mailto: rapioanfernee@gmail.com">Email ➤</a>
         </div>
