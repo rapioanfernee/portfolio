@@ -47,7 +47,7 @@ const ProjectItem = ({
           <li>{skill}</li>
         ))}
       </ul>
-      <a href={projectLink}>Link</a>
+      {projectLink && <a href={projectLink}>Link</a>}
     </ProjectItemContainer>
   );
 };

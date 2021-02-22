@@ -36,12 +36,12 @@ const Projects = () => {
         <h2>Projects</h2>
         <ProjectList>
           <ProjectItem
-            projectTitle="Analytics Dashboard"
+            projectTitle="Network Analytics Dashboard"
             projectClient="Samsung Electronics"
-            projectDate="2019"
+            projectDate="2019 - Current"
             projectDescription="The nature of this work is confidential"
             projectSkills={["ReactJS", "JavaScript", "HTML", "CSS"]}
-            projectLink="#"
+            projectLink={null}
             projectImage={unAvailable}
           ></ProjectItem>
           <ProjectItem

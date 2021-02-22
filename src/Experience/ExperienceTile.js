@@ -27,7 +27,6 @@ const ExperienceTile = ({ company, title, date, desc }) => {
     <ExperienceTileBackground>
       <h3>{company}</h3>
       <i>{title}</i>
-      <small>{date}</small>
       {desc.map((d) => (
         <p>{d}</p>
       ))}

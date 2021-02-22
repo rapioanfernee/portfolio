@@ -26,19 +26,18 @@ const ExperienceBody = styled.div`
 
 const Experiences = [
   {
-    company: "Samsung Research and Development Philippines",
+    company: "Samsung Electronics",
     title: "Software Engineer",
-    date: "November 2019 - Present",
     desc: [
       "Developed and enhanced a dashboard web application using ReactJS for network analytics",
-      "Created unit tests for multiple chart components and documented usage usingStorybook and React Styleguidist",
+      "Reviewed pull / merge requests submitted by colleagues for code optimization",
+      "Created unit tests for multiple chart components and documented usage using Storybook and React Styleguidist",
       "Created and published a local library of charts based on Highcharts.js to the company’s internal NPM library",
     ],
   },
   {
     company: "Innovation Love",
     title: "Front-End Developer",
-    date: "July 2019 - October 2019",
     desc: [
       "Enhanced and developed a web application using ReactJS and MeteorJS for real estate purpose",
       "Converted design templates from Figma into HTML, CSS, and JavaScript code",
@@ -48,7 +47,6 @@ const Experiences = [
   {
     company: "Accenture",
     title: "Application Development Associate",
-    date: "April 2018 - February 2019",
     desc: [
       "Developed an analytics dashboard for a project focused on IoT for monitoring a truck’s statistics using SAP UI5",
     ],
