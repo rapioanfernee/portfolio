@@ -68,7 +68,7 @@ ProjectItem.defaultProps = {
   projectDate: "Lorem Ipsum",
   projectDescription: "Lorem Ipsum",
   projectSkills: ["lorem", "ipsum"],
-  projectLink: "https://github.com/anferneerapio",
+  projectLink: null,
   projectImage: "",
 };
 

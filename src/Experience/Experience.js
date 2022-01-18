@@ -26,6 +26,14 @@ const ExperienceBody = styled.div`
 
 const Experiences = [
   {
+    company: "Asurion",
+    title: "Software Engineer II",
+    desc: [
+      "Maintenance of web applications built using ReactJS",
+      "Handles SQL scripts for data manipulation"
+    ]
+  },
+  {
     company: "Samsung Electronics",
     title: "Software Engineer",
     desc: [

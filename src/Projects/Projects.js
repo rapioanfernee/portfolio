@@ -38,10 +38,9 @@ const Projects = () => {
           <ProjectItem
             projectTitle="Network Analytics Dashboard"
             projectClient="Samsung Electronics"
-            projectDate="2019 - Current"
+            projectDate="2019 - 2021"
             projectDescription="The nature of this work is confidential"
             projectSkills={["ReactJS", "JavaScript", "HTML", "CSS"]}
-            projectLink={null}
             projectImage={unAvailable}
           ></ProjectItem>
           <ProjectItem
@@ -68,7 +67,6 @@ const Projects = () => {
             projectDate="2018"
             projectDescription="Analytics dashboard for IoT application"
             projectSkills={["SAP UI5", "JavaScript", "CSS"]}
-            projectLink="#"
             projectImage={unAvailable}
           ></ProjectItem>
         </ProjectList>
